@@ -1,0 +1,39 @@
+# ── Core ML ───────────────────────────────────────────────────────────────────
+torch>=2.2.0
+transformers==4.40.1
+tokenizers==0.19.1
+accelerate==0.29.3
+peft==0.11.1
+safetensors>=0.4.3
+
+# ── Data & ML utilities ───────────────────────────────────────────────────────
+numpy>=1.26.0
+pandas>=2.1.0
+scikit-learn>=1.4.0
+joblib>=1.4.0
+
+# ── Training extras ───────────────────────────────────────────────────────────
+setfit==1.0.3
+datasets>=2.18.0
+huggingface-hub>=0.22.0
+
+# ── NLP preprocessing ─────────────────────────────────────────────────────────
+nltk>=3.8.0
+pymorphy2>=0.9.1
+pymorphy2-dicts-ru>=2.4.417127.4579844
+
+# ── Visualisation ─────────────────────────────────────────────────────────────
+matplotlib>=3.8.0
+seaborn>=0.13.0
+wordcloud>=1.9.3
+
+# ── FastAPI production server ──────────────────────────────────────────────────
+fastapi>=0.111.0
+uvicorn[standard]>=0.29.0
+pydantic>=2.7.0
+
+# ── Gradio demo interface ──────────────────────────────────────────────────────
+gradio>=4.28.0
+
+# ── Statistical testing ───────────────────────────────────────────────────────
+scipy>=1.12.0
